@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <!-- <script src="./index.js"></script> -->
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="tab-bar">
+        <a id="index.html" class="tab selected" href="/index.html">About me</a>
+        <a id="projects" class="tab" href="/projects.html">Projetos</a>
+        <a id="clients" class="tab" href="/clients.html">Clientes</a>
+        <a id="contacts" class="tab" href="/contacts.html">Contatos</a>
+      </div>
+
+      <div id="content-area" class="grid-content">
+        <iframe
+          src="./image.html"
+          height="300"
+          width="350"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+        <div>
+          <div class="command-line">cat ./about.md</div>
+          <div class="command-out">
+            <div class="output">
+              Hi, I'm Arthur! Actually studying Computer Engineering in
+              CEFET.Interested in software development.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <!-- <script src="./index.js"></script> -->
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="tab-bar">
+        <a id="index.html" class="tab" href="/index.html">About me</a>
+        <a id="projects" class="tab" href="/projects.html">Projetos</a>
+        <a id="clients" class="tab" href="/clients.html">Clientes</a>
+        <a id="contacts" class="tab selected" href="/contacts.html">Contatos</a>
+      </div>
+
+      <div id="content-area">
+        <div class="command-line">cat ./contacts.md</div>
+        <div class="command-out">
+          <span class="output">LinkedIn</span>
+          <span class="output">GitHub</span>
+          <span class="output">Email</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
