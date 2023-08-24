@@ -88,3 +88,11 @@ body {
 a {
   all: unset;
 }
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: #00c20080;
+}
